@@ -9,22 +9,22 @@ const IMAGEN_RESPALDO = "data:image/svg+xml;utf8," + encodeURIComponent(
   "<circle cx='200' cy='140' r='55' fill='none' stroke='#14213d' stroke-width='16'/><circle cx='200' cy='140' r='12' fill='#14213d'/></svg>");
 
 const productos = [
-  { id: 1,  nombre: "Bomba de levante C-101 (con kit neumático)", descripcion: "Bomba hidráulica de levante con kit neumático incluido para volquetas.", precio: 1850000, categoria: "Bombas hidráulicas", imagen: "img/01-bomba-c101.jpg" },
-  { id: 2,  nombre: "Bomba de levante C-102 (sin kit neumático)", descripcion: "Bomba hidráulica de levante para volquetas, sin kit neumático.", precio: 1450000, categoria: "Bombas hidráulicas", imagen: "img/02-bomba-c102.jpg" },
-  { id: 3,  nombre: "Kit neumático para bomba de levante", descripcion: "Cuerpo, émbolo, sellos y tornillería para el accionamiento neumático.", precio: 520000, categoria: "Bombas hidráulicas", imagen: "img/06-kit-neumatico.jpg" },
+  { id: 1,  nombre: "Bomba de levante C-101 (con kit neumático)", descripcion: "Bomba hidráulica de levante con kit neumático incluido para volquetas.", precio: 1780000, categoria: "Bombas hidráulicas", imagen: "img/01-bomba-c101.jpg" },
+  { id: 2,  nombre: "Bomba de levante C-102 (sin kit neumático)", descripcion: "Bomba hidráulica de levante para volquetas, sin kit neumático.", precio: 1780000, categoria: "Bombas hidráulicas", imagen: "img/02-bomba-c102.jpg" },
+  { id: 3,  nombre: "Kit neumático para bomba de levante", descripcion: "Cuerpo, émbolo, sellos y tornillería para el accionamiento neumático.", precio: 250000, categoria: "Bombas hidráulicas", imagen: "img/06-kit-neumatico.jpg" },
   { id: 4,  nombre: "Aceite hidráulico Mobil AW 68", descripcion: "Aceite hidráulico antidesgaste en presentación de un cuarto (0,946 L).", precio: 38000, categoria: "Lubricantes", imagen: "img/03-mobil-aw68.jpg" },
-  { id: 5,  nombre: "Aceite hidráulico OMAX 68", descripcion: "Aceite hidráulico SAE 68 para sistemas de levante y maquinaria.", precio: 78000, categoria: "Lubricantes", imagen: "img/05-omax-hidraulico68.jpg" },
+  { id: 5,  nombre: "Aceite hidráulico OMAX 68", descripcion: "Aceite hidráulico SAE 68 para sistemas de levante y maquinaria.", precio: 40000, categoria: "Lubricantes", imagen: "img/05-omax-hidraulico68.jpg" },
   { id: 6,  nombre: "Valvulina OMAX 90", descripcion: "Lubricante SAE 90 para cajas y diferenciales, presentación de 946 mL.", precio: 32000, categoria: "Lubricantes", imagen: "img/04-valvulina-omax90.jpg" },
-  { id: 7,  nombre: "Aceite de motor OMAX 15W40", descripcion: "Aceite API CI-4 para trabajo pesado, galón de 3,8 L.", precio: 98000, categoria: "Lubricantes", imagen: "img/16-omax-15w40.jpg" },
-  { id: 8,  nombre: "Filtro de aceite Caterpillar / Ford / Freightliner / International", descripcion: "Filtro de aceite roscado Premium Filters OLP-098, rosca M18 x 1.5.", precio: 42000, categoria: "Filtros", imagen: "img/07-filtro-aceite.jpg" },
-  { id: 9,  nombre: "Filtro de aire International", descripcion: "Elemento filtrante cilíndrico perforado para motores International.", precio: 68000, categoria: "Filtros", imagen: "img/08-filtro-aire-international.jpg" },
-  { id: 10, nombre: "Filtro de aire Kenworth", descripcion: "Filtro de aire de papel plisado con malla metálica para Kenworth.", precio: 75000, categoria: "Filtros", imagen: "img/09-filtro-aire-kenworth.jpg" },
-  { id: 11, nombre: "Silicona gris Loctite SI 5699", descripcion: "Formador de juntas RTV de alto desempeño, 70 mL, resistente al aceite.", precio: 48000, categoria: "Selladores y adhesivos", imagen: "img/10-loctite-si5699.jpg" },
-  { id: 12, nombre: "Silicona neutra gris HT Würth", descripcion: "Silicona neutra de alta temperatura para sellado, tubo de 60 g.", precio: 36000, categoria: "Selladores y adhesivos", imagen: "img/11-wurth-silicona.jpg" },
-  { id: 13, nombre: "Pegante instantáneo Würth Bonder", descripcion: "Adhesivo instantáneo de uso profesional, tubo de 2 g.", precio: 14000, categoria: "Selladores y adhesivos", imagen: "img/12-wurth-bonder.jpg" },
-  { id: 14, nombre: "Adhesivo epóxico Sintesolda", descripcion: "Epóxico transparente de dos componentes que cura en 10 minutos, 14 g.", precio: 12000, categoria: "Selladores y adhesivos", imagen: "img/13-sintesolda.jpg" },
-  { id: 15, nombre: "Desoxidante y lubricante Würth Rost Off", descripcion: "Aflojatodo anticorrosivo en aerosol de 300 mL para tornillos oxidados.", precio: 29000, categoria: "Mantenimiento", imagen: "img/14-rost-off.jpg" },
-  { id: 16, nombre: "Limpiador de sistema de frenos Ker", descripcion: "Limpiador en aerosol de 450 mL que seca rápido y no requiere desmontar.", precio: 26000, categoria: "Mantenimiento", imagen: "img/15-limpiador-frenos-ker.jpg" }
+  { id: 7,  nombre: "Aceite de motor OMAX 15W40", descripcion: "Aceite API CI-4 para trabajo pesado, galón de 3,8 L.", precio: 30000, categoria: "Lubricantes", imagen: "img/16-omax-15w40.jpg" },
+  { id: 8,  nombre: "Filtro de aceite Caterpillar / Ford / Freightliner / International", descripcion: "Filtro de aceite roscado Premium Filters OLP-098, rosca M18 x 1.5.", precio: 62000, categoria: "Filtros", imagen: "img/07-filtro-aceite.jpg" },
+  { id: 9,  nombre: "Filtro de aire International", descripcion: "Elemento filtrante cilíndrico perforado para motores International.", precio: 50000, categoria: "Filtros", imagen: "img/08-filtro-aire-international.jpg" },
+  { id: 10, nombre: "Filtro de aire Kenworth", descripcion: "Filtro de aire de papel plisado con malla metálica para Kenworth.", precio: 98000, categoria: "Filtros", imagen: "img/09-filtro-aire-kenworth.jpg" },
+  { id: 11, nombre: "Silicona gris Loctite SI 5699", descripcion: "Formador de juntas RTV de alto desempeño, 70 mL, resistente al aceite.", precio: 18000, categoria: "Selladores y adhesivos", imagen: "img/10-loctite-si5699.jpg" },
+  { id: 12, nombre: "Silicona neutra gris HT Würth", descripcion: "Silicona neutra de alta temperatura para sellado, tubo de 60 g.", precio: 20000, categoria: "Selladores y adhesivos", imagen: "img/11-wurth-silicona.jpg" },
+  { id: 13, nombre: "Pegante instantáneo Würth Bonder", descripcion: "Adhesivo instantáneo de uso profesional, tubo de 2 g.", precio: 24000, categoria: "Selladores y adhesivos", imagen: "img/12-wurth-bonder.jpg" },
+  { id: 14, nombre: "Adhesivo epóxico Sintesolda", descripcion: "Epóxico transparente de dos componentes que cura en 10 minutos, 14 g.", precio: 32000, categoria: "Selladores y adhesivos", imagen: "img/13-sintesolda.jpg" },
+  { id: 15, nombre: "Desoxidante y lubricante Würth Rost Off", descripcion: "Aflojatodo anticorrosivo en aerosol de 300 mL para tornillos oxidados.", precio: 15000, categoria: "Mantenimiento", imagen: "img/14-rost-off.jpg" },
+  { id: 16, nombre: "Limpiador de sistema de frenos Ker", descripcion: "Limpiador en aerosol de 450 mL que seca rápido y no requiere desmontar.", precio: 18000, categoria: "Mantenimiento", imagen: "img/15-limpiador-frenos-ker.jpg" }
 ];
 
 let carrito = cargarCarrito();
