@@ -14,6 +14,7 @@ a { color: inherit; text-decoration: none; }
 [hidden] { display: none !important; }
 
 .cabecera { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .7rem 5%; background: var(--azul); color: #fff; }
+.logo img { height: 56px; width: auto; border-radius: 8px; }
 .logo { display: flex; align-items: center; gap: .6rem; font-weight: 700; font-size: 1.2rem; }
 .menu { display: flex; gap: 1.5rem; }
 .menu a { padding: .3rem .2rem; border-bottom: 2px solid transparent; transition: border-color .2s; }
@@ -23,7 +24,7 @@ a { color: inherit; text-decoration: none; }
 .badge { position: absolute; top: -8px; right: -8px; min-width: 22px; height: 22px; border-radius: 11px; background: var(--rojo); color: #fff; font-size: .8rem; display: grid; place-items: center; }
 
 .hero { min-height: 70vh; display: flex; align-items: center; padding: 0 5%; color: #fff;
-  background: linear-gradient(90deg, rgba(20,33,61,.9), rgba(20,33,61,.4)), url("https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1600&q=70") center/cover, var(--azul); }
+  background: linear-gradient(90deg, rgba(20,33,61,.9), rgba(20,33,61,.4)), url("../img/banner.jpg") center/cover, var(--azul); }
 .hero-texto { max-width: 560px; }
 .hero h1 { font-size: 2.6rem; line-height: 1.15; margin-bottom: 1rem; }
 .hero p { margin-bottom: 1.5rem; font-size: 1.15rem; }
@@ -107,6 +108,7 @@ a { color: inherit; text-decoration: none; }
 
 @media (max-width: 767px) {
   .btn-menu { display: block; margin-left: auto; }
+  .logo span { font-size: .9rem; line-height: 1.15; }
   .menu { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--azul); }
   .menu.abierto { display: flex; }
   .menu a { padding: .9rem 5%; border-top: 1px solid #2b3a5c; }
